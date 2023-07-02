@@ -5,6 +5,14 @@
     height: 150px;
 }
 
+.menu_mobile {
+    width: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -37,4 +45,25 @@
     margin-left: 153px;
 }
 
+.container_mobile {
+    position: relative;
+    max-width: 375px;
+}
+
+.styles.menu_mobile {
+    display: flex;
+}
+
+.buttons_mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.header_wrapper {
+   display: flex;
+}
 

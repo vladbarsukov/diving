@@ -1,0 +1,10 @@
+.all_pages_container {
+    height: 100%;
+    display: flex;
+    column-gap: 14px;
+}
+
+.window {
+    height: 100%;
+    width: 1000px;
+}

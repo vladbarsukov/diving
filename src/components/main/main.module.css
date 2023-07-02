@@ -1,5 +1,5 @@
 .container {
-    height: 900px;
+    height: 812px;
     max-width: 1440px;
     display: flex;
     flex-direction: column;
@@ -64,4 +64,53 @@
     margin-top: 105px;
     margin-left: 101px;
     column-gap: 71px;
+}
+
+.container_mobile {
+    height: 812px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    background: url("../../images/img.png") center;
+    background-size: cover;
+}
+
+.slogan_wrapper_mobile {
+    margin-top: 276px;
+    width: 323px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_button_mobile {
+    margin-top: 19px;
+}
+
+.text_mobile {
+    margin: 0;
+}
+
+.slider_container {
+    margin-top: 150px;
+    margin-left: 20px;
+    overflow: hidden;
+    height: 157px;
+    width: 355px;
+}
+
+.dots_container {
+    margin-top: 12px;
+    display: flex;
+    column-gap: 11px;
+    width: 49px;
+    height: 9px;
+    margin-left: auto;
+    margin-right: auto;
+
 }

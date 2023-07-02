@@ -1,0 +1,68 @@
+.container {
+    margin-top: 61px;
+    /*height: 433px;*/
+    width: 375px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.wave_background {
+    height: 100px;
+    background: url("../../images/waves.svg") center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 433px;
+    width: 100%;
+    background-color: #1E549F;
+    padding-bottom: 10px;
+
+}
+
+.contacts {
+    width: 222px;
+    margin-top: 175px;
+    margin-left: 94px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contacts_phone {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+}
+.contacts_email {
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.license {
+    margin-top: 56px;
+    width: 198px;
+    margin-left: -5px;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link {
+    margin-top: 43px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -2,14 +2,19 @@ import React, {FC} from 'react';
 import img from "../../images/blog_image.png"
 import styles from "./blog-item.module.css"
 import {IBlog} from "../../services/types/data";
+import {useMediaQuery} from "react-responsive";
 
 interface IBlogItemProps {
     item: IBlog
 }
 
 const BlogItem: FC<IBlogItemProps> = ({item}) => {
+    const isMobile = useMediaQuery({
+        query: "(max-width: 376px)"
+    });
+
     return (
-        <div className={styles.container}>
+        <div className={isMobile ? styles.container_mobile : styles.container}>
             <img src={img} alt={"img"}/>
             <div className={styles.description}>
                 <p className={styles.text}>{`"id":${item.id},`}</p>
