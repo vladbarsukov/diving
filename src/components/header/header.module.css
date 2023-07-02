@@ -1,0 +1,40 @@
+.container {
+    margin-right: 90px;
+    margin-left: 90px;
+    max-width: 1440px;
+    height: 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    margin-top: 41px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 766px;
+    column-gap: 44px;
+}
+
+.list_item {
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.buttons {
+    column-gap: 27px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 29px;
+    margin-left: 153px;
+}
+
+

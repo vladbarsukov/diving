@@ -1,0 +1,80 @@
+.container {
+    margin-top: 318px;
+    height: 270px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.wave_background {
+    height: 100px;
+    background: url("../../images/waves.svg");
+}
+
+.footer {
+    display: flex;
+    height: 170px;
+    background-color: #1E549F;
+}
+
+.contacts {
+    margin-top: 67px;
+    margin-left: 51px;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contacts_phone {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+}
+.contacts_email {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.links_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    margin-top: 28px;
+    margin-left: 311px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav_link {
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social_links {
+    margin-top: 15px;
+    align-self: end
+}
+
+.license {
+    align-self: end;
+    margin-top: 11px;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
