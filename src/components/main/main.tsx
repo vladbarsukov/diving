@@ -64,11 +64,16 @@ const Main: FC = () => {
                     </div>
                 </div>
                 }
-            <div className={styles.dots_container}>
-                <img src={currentDot === 1 ? dot_active: dot_inactive} alt={"dot"}/>
-                <img src={currentDot === 2 ? dot_active: dot_inactive} alt={"dot"}/>
-                <img src={currentDot === 3 ? dot_active: dot_inactive} alt={"dot"}/>
-            </div>
+            {isMobile ?
+                <div className={styles.dots_container}>
+                    <img src={currentDot === 1 ? dot_active: dot_inactive} alt={"dot"}/>
+                    <img src={currentDot === 2 ? dot_active: dot_inactive} alt={"dot"}/>
+                    <img src={currentDot === 3 ? dot_active: dot_inactive} alt={"dot"}/>
+                </div>
+            :
+                <></>
+            }
+
 
         </div>
     );

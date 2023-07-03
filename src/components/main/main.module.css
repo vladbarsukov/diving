@@ -1,5 +1,5 @@
 .container {
-    height: 812px;
+    height: 900px;
     max-width: 1440px;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@
 }
 
 .slogan_wrapper_mobile {
-    margin-top: 276px;
+    margin-top: 342px;
     width: 323px;
     display: flex;
     flex-direction: column;
