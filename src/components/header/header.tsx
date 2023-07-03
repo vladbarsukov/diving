@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import styles from './header.module.css'
 import {Link} from "react-router-dom";
 import Button from "../button/button";
@@ -7,7 +7,7 @@ import { useMediaQuery } from "react-responsive";
 import MenuButton from "../menu-button/menu-button";
 import MobileMenu from "../mobile-menu/mobile-menu";
 
-const Header = () => {
+const Header: FC = () => {
     const isMobile = useMediaQuery({
         query: "(max-width: 376px)"
     });
@@ -17,7 +17,6 @@ const Header = () => {
     }
 
     return (
-
         <div className={isMobile ? styles.container_mobile : styles.container}>
             {isMobile ?
                 <nav className={isMobile ? styles.menu_mobile : styles.menu}>

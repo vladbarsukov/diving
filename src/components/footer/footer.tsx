@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from './footer.module.css'
 import {Link} from "react-router-dom";
 import dot_img from "../../images/dot.svg"
 import SocialButton from "../social-button/social-button";
-const Footer = () => {
+const Footer: FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.wave_background}/>

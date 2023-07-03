@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from './App.module.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "../../pages/home-page/home";
 import BlogPage from "../../pages/blog-page/blog-page";
 
-const App = () => {
+const App: FC = () => {
   return (
     <div className={styles.App}>
         <BrowserRouter>

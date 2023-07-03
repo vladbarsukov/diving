@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import styles from './blog-header.module.css'
 import Button from "../button/button";
 import SocialButton from "../social-button/social-button";
@@ -7,7 +7,7 @@ import {useMediaQuery} from "react-responsive";
 import MenuButton from "../menu-button/menu-button";
 import MobileMenu from "../mobile-menu/mobile-menu";
 
-const BlogHeader = () => {
+const BlogHeader: FC = () => {
     const isMobile = useMediaQuery({
         query: "(max-width: 376px)"
     });
@@ -48,7 +48,6 @@ const BlogHeader = () => {
                 <div className={styles.navigation}>
                     <nav className={styles.list}>
                         <Link className={styles.list_item} to={'/'}>Главная</Link>
-                        {/*<Link style={{width: '107px', marginLeft: "23px"}} className={styles.current_link} to={'/blog'}>Блог</Link>*/}
                         <Link className={styles.current_link} to={'/blog'}>Блог</Link>
                         <Link style={{marginLeft: '-20px'}} className={styles.list_item} to={'/'}>Обучение</Link>
                         <Link style={{marginLeft: '10px'}} className={styles.list_item} to={'/'}>Снаряжение</Link>

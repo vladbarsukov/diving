@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from "./footer-mobile.module.css"
 
-const FooterMobile = () => {
+const FooterMobile: FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.wave_background} ></div>
