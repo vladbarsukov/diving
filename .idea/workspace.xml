@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04751327-48c5-4a64-9418-83ff9ea710a6" name="Changes" comment="desktop view">
-      <change afterPath="$PROJECT_DIR$/src/components/footer-mobile/footer-mobile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer-mobile/footer-mobile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-button/menu-button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu-button/menu-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mobile-menu/mobile-menu.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mobile-menu/mobile-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/slider.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/close_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/dot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/actions/sliderActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/reducers/sliderReduser.ts" afterDir="false" />
+    <list default="true" id="04751327-48c5-4a64-9418-83ff9ea710a6" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog-content/blog-content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-content/blog-content.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog-content/blog-content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-content/blog-content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog-header/blog-header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-header/blog-header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog-header/blog-header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-header/blog-header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog-item/blog-item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-item/blog-item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog-item/blog-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-item/blog-item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/description-block/description-block.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/description-block/description-block.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/description-block/description-block.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/description-block/description-block.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main-button/main-button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-button/main-button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main-button/main-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-button/main-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog-page/blog-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog-page/blog-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home-page/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +72,7 @@
       <workItem from="1688207874268" duration="466000" />
       <workItem from="1688208818882" duration="15057000" />
       <workItem from="1688242008245" duration="19331000" />
-      <workItem from="1688318929963" duration="19175000" />
+      <workItem from="1688318929963" duration="20096000" />
     </task>
     <task id="LOCAL-00001" summary="desktop view">
       <created>1688298012731</created>
@@ -114,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688298012731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1688339838726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688339838726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="desktop view" />
-    <option name="LAST_COMMIT_MESSAGE" value="desktop view" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

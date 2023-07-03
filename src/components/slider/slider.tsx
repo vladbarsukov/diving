@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useState} from 'react';
 import DescriptionBlock from "../description-block/description-block";
 import styles from './slider.module.css'
-import {useDispatch, useSelector} from "../../services/hook";
+import {useDispatch} from "../../services/hook";
 import {SET_CURRENT_DOT} from "../../services/actions/sliderActions";
 
 const Slider: FC = () => {

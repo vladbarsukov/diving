@@ -42,7 +42,7 @@
 }
 
 .list_item:last-child {
-    border-bottom: 0px;
+    border-bottom: 0;
 }
 
 .wave_background {
