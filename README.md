@@ -1,4 +1,4 @@
-![Главная страница](./src/images/screenshots/main.jpg)
+![Главная страница](./src/images/screenshots/main_page.jpg)
 ![Блог](./src/images/screenshots/blog.jpg)
 ![Главная мобильный вид](./src/images/screenshots/main_mob.jpg)
 ![Блог мобильный вид](./src/images/screenshots/blog_mob.jpg)
